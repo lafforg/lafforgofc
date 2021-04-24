@@ -155,7 +155,7 @@ line-height: 0px; }
 	outline:none;
 	border: none;
 	font-family: calibri;
-	background-color: #F5F5F5;
+	background-color: #FF8C00;
 
 }
 
@@ -204,13 +204,13 @@ line-height: 0px; }
 	justify-content: space-between;
 }
 .box-1 {
-	background-image: url(img/img2.png);
+	background-image: url(img/diaria.png);
 }
 .box-2{
-	background-image: url(img/ytb.png);
+	background-image: url(img/Regras.png);
 }
 .box-3 {
-	background-image: url(img/img1.png);
+	background-image: url(img/parceria.png);
 }
 
 .box-1 span,
@@ -219,7 +219,7 @@ line-height: 0px; }
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
-	background-color: #FF8C00;
+	background-color:white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -230,7 +230,7 @@ line-height: 0px; }
 .box-1 p:nth-child(2),
 .box-2 p:nth-child(2),
 .box-3 p:nth-child(2){
-color: #FF8C00;
+color: white;
 font-family:calibri;
 font-size: 23px;
 line-height: 0px;
@@ -242,7 +242,7 @@ line-height: 0px;
 	text-align: center;
 	width: 230px;
 	margin: 0px 0px 20px 0px;
-	color: #FF8C00;
+	color: white;
 }
 .box-1 button,
 .box-2 button,
@@ -266,11 +266,11 @@ line-height: 0px;
 	align-items: center;
 }
 .contact-me p{
-	color: #FF8C00;
+	color: white;
 	font-size: 30px;
 	font-family: calibri;
 	font-weight: bold;
-	border-bottom: 2px solid #FF8C00;
+	border-bottom: 2px solid white;
 }
 .contact-me button {
 	width: 200px;
