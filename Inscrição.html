@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="cadastro.css">
 	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeIGOf221f-aFrBocEtOFniTO7Jjo6ncjzixh6V8cVER-uuHA/viewform?embedded=true" width="640" height="1617" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 </head>
 <body>
 
@@ -30,40 +31,43 @@
 
 <center><h1 class="inscricao">INSCRIÇÃO LAFF</h1><br>
 
-		<form action="cadastro.php" method="post">
+
+		<form action="inscricao.php" method="post" >
 			<fieldset>
 				<legend>Identificação do Usuário</legend>
 
+				<input type="hidden" name="accessKey" value="92bcfa1b-577a-4873-b923-a733d021763d">
+
 				<p><label class="nome">Nome da line: </label>
-				<input type="text" id="nomeline" size="45" maxlength="30" placeholder="Nome da Line" autofocus>
+				<input type="text" name="nomeline" size="45" maxlength="30" placeholder="Nome da Line" autofocus>
 				</p>
 				<p><label for="tag">Tag da line:</label>
-				<input type="text" id="tag" size="48" maxlength="40" placeholder="Tag da Line">
+				<input type="text" name="tagline" size="48" maxlength="40" placeholder="Tag da Line">
 				</p>
 				<p><label for="player">Player 1: </label>
-				<input type="text" id="p1" size="50" maxlength="100" placeholder="Player 1" autofocus>
+				<input type="text" name="p1" size="50" maxlength="100" placeholder="Player 1" autofocus>
 				</p>
 				<p><label for="player">Player 2: </label>
-				<input type="text" id="p2" size="50" maxlength="100" placeholder="Player 2" autofocus>
+				<input type="text" name="p2" size="50" maxlength="100" placeholder="Player 2" autofocus>
 				</p>
 				<p><label for="player">Player 3: </label>
-				<input type="text" id="p3" size="50" maxlength="100" placeholder="Player 3" autofocus>
+				<input type="text" name="p3" size="50" maxlength="100" placeholder="Player 3" autofocus>
 				</p>
 				<p><label for="player">Player 4: </label>
-				<input type="text" id="p4" size="50" maxlength="100" placeholder="Player 4" autofocus>
+				<input type="text" name="p4" size="50" maxlength="100" placeholder="Player 4" autofocus>
 				</p>
 				<p><label for="player">1° Reserva </label>
-				<input type="text" id="reserva" size="48" maxlength="100" placeholder="Reserva" autofocus>
+				<input type="text" name="reserva" size="48" maxlength="100" placeholder="Reserva" autofocus>
 				</p>
 </fieldset>
 <br><br>
 <fieldset>
 	<legend>Complementar</legend><br>
 				<p><label for="nome">E-mail: </label>
-				<input type="email" id="email" size="53" maxlength="100" placeholder="E-mail" autofocus>
+				<input type="email" name="email" size="53" maxlength="100" placeholder="E-mail" autofocus>
 				</p>
 				<p><label for="nome">WhatsApp: </label>
-				<input type="text" id="wpp" size="50" maxlength="100" placeholder="WhatsApp" autofocus></p>
+				<input type="text" name="wpp" size="50" maxlength="100" placeholder="WhatsApp" autofocus></p>
 				
 				<p><label for="nome">Observação: </label></p>
 				<textarea rows="6" style="width: 35em" id="obs" name="Observação"></textarea>
