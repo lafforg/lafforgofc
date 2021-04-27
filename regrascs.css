@@ -1,0 +1,46 @@
+div.cadastro{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 60px;
+	background-color: #1C1C1C;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+	padding: 0px 5%;
+}
+
+
+
+.regras1{
+	text-align: center;
+	color: #FF8C00;
+	font-size: 35px;
+	font-family: copperplate;
+	outline: none;
+}
+p.contra{
+	text-align: left;
+	color: #FF8C00;
+	font-size: 30px;
+	font-family: OCR A Std, monospace;
+		text-align: center;
+
+}
+p.regras{
+	font-size: 20px;
+	text-align: left;
+	color: white;
+	text-align: center;
+}
+.pontuacao{
+	font-size: 30px;
+	color: #FF8C00;
+	font-family: OCR A Std, monospace;
+	text-align: center;
+}
+.pontos{
+	font-size: 20px;
+	color: white;
+	font-family: orc a std, monospace;
+	position: relative;
+text-align: center;
+}

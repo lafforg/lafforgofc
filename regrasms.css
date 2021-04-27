@@ -1,0 +1,61 @@
+div.cadastro{
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	height: 60px;
+	background-color: #1C1C1C;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+	padding: 0px 5%;}
+
+	ul {
+	position: relative;
+	
+	margin: 0px;
+	padding: 0px;
+}
+ul li {display: inline-block;}
+
+ul li a {
+	text-decoration: none;
+	margin: 30px;
+	font-family: OCR A Std, monospace;
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	display: block;
+}
+ul li:hover{
+	background: ;
+}
+
+ul ul{
+position: absolute;
+min-width: 200px;
+
+display: none;
+}
+
+ul ul li {
+	display: block;
+	
+}
+ul li:hover ul {display: block;}
+
+
+
+
+
+p.modo{
+	color: white;
+}
+p.pontos{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-family: calibri;
+}
+div.regu{
+	color: white;
+	padding: 10px;
+
+}

@@ -17,7 +17,7 @@ section {
 	background-size: cover;
 	position: relative;
 }
-nav{
+div.drop{
 	display:flex;
 	justify-content: space-between;
 	align-items:center;
@@ -40,16 +40,40 @@ height: 50px;
 
 }
 
-nav ul {
-	display: flex;
+ul {
+	position: relative;
+	
+	margin: 0px;
+	padding: 0px;
 }
-nav ul li a {
+ul li {display: inline-block;}
+
+ul li a {
+	text-decoration: none;
 	margin: 30px;
 	font-family: OCR A Std, monospace;
 	color: white;
 	font-size: 15px;
 	font-weight: 700;
+	display: block;
 }
+ul li:hover{
+	background: ;
+}
+
+ul ul{
+position: absolute;
+min-width: 200px;
+
+display: none;
+}
+
+ul ul li {
+	display: block;
+	
+}
+ul li:hover ul {display: block;}
+
 .text-container p:nth-child(1){
 font-family: calibri;
 font-weight: bold;
